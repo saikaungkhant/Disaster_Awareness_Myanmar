@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wahaha.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activies.DonationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activies.EmergencyActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".CityListActivity"></activity>
+
+        <activity android:name=".ContactListActivity"></activity>
+
+        <activity android:name=".Activies.KnowledgeActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Activies.FeedBackActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Activies.MercalliSensorActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Activies.EarthquakeEmergencyStepsActivity"></activity>
+
+        <activity android:name=".Activies.FirebaseMapsViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".Activies.ShowNewsActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.ShowPostDetailActivity"></activity>
+        <activity android:name=".Activies.IUDNewsActivity"></activity>
+        <activity android:name=".Activies.CycloneActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.CycloneDoandDontActivity"></activity>
+        <activity android:name=".Activies.CycloneHistoryActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.CycloneInformationActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.CycloneVideoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.DroughtActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.DroughtDoandDontActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.DroughtVideoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.DroughtHistoryActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.DroughtInformationActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.EarthQuakeActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.EarthquakeHistoryActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.EarthquakeInformationActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.EarthquakeDoandDontActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.EarthquakeVideoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.FloodActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.FloodDoandDontActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.FloodInformationActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.FloodVideoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.FloodHistoryActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.LandslideActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.LandslideHistoryActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.LandslideInformationActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.LandslideDoandDontActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.LandslideVideoActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activies.WebviewActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".Activies.WeatherActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Activies.SettingsActivity"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name=".widgets.ExtensiveWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/extensive_widget" />
+        </receiver>
+        <receiver android:name=".widgets.TimeWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/time_widget" />
+        </receiver>
+        <receiver android:name=".widgets.SimpleWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/simple_widget" />
+        </receiver>
+
+        <service
+            android:name=".widgets.DashClockWeatherExtension"
+            android:icon="@drawable/ic_cloud_white_24dp"
+            android:label="@string/app_name"
+            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="protocolVersion"
+                android:value="2" />
+            <meta-data
+                android:name="worldReadable"
+                android:value="true" />
+            <meta-data
+                android:name="settingsActivity"
+                android:value=".ExampleSettingsActivity" />
+        </service>
+
+        <receiver android:name=".AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Activies.MapActivity"
+            android:parentActivityName=".Activies.WeatherActivity"
+            android:theme="@style/AppTheme.NoStatusBar" />
+
+        <activity
+            android:name=".Activies.GraphActivity"
+            android:label="@string/action_graphs"
+            android:parentActivityName=".Activies.WeatherActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="com.wahaha.myapplication.utils.StubContentProvider"
+            android:authorities="cz.martykan.forecastie.authority"
+            android:exported="true" />
+
+
+    </application>
+
+
+</manifest>

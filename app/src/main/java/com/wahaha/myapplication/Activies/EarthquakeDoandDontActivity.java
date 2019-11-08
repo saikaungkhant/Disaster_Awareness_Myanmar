@@ -1,0 +1,21 @@
+package com.wahaha.myapplication.Activies;
+
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+
+import com.wahaha.myapplication.R;
+
+public class EarthquakeDoandDontActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.earthquake_doanddont);
+
+        ViewPager viewPager = findViewById(R.id.earth_doandont);
+        EarthquakeAdapter adapter = new EarthquakeAdapter(this);
+        viewPager.setAdapter(adapter);
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ငလျင်လှုပ်လျှင် လိုက်နာရမည့်အချက်များ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\n၁။ အိမ်ထဲမှာနေရင်အတွင်းမှာနေပါ။ အပြင်မှာရှိနေရင်အပြင်မှာနေပါ။\n\n၂။ အတွင်းမှာနေရင်အဆောက်အအုံရဲ့အလယ်နားကပ်မှာ နံရံကိုဆန့်ကျင်ပါ၊ တံခါးဝမှာရပ်ပါ၊ ပြတင်းပေါက်များနှင့်အပြင်တံခါးများမှဝေးဝေးနေပါ။\n\n၃။ သင်အပြင်မှာရှိပါက လိုင်းများ သို့မဟုတ် ပြုတ်ကျနိုင်သောအရာများမှ အဝေးတွင်နေပါ။ အဆောက်အဦးများနှင့် ဝေးဝေးနေပါ (ပစ္စည်းပစ္စယများသည် အဆောက်အဦးမှ ပြိုကျနိုင်သည်။ သို့မဟုတ် အဆောက်အဦးသည် သင့်အပေါ်သို့ ကျနိုင်သည်။\n\n၄။  မီးခြစ်၊ ဖယောင်းတိုင် သို့မဟုတ် မီးလျှံတစ်ခုခုကို မသုံးပါနှင့်။ ပျက်သောဓာတ်ငွေ့လိုင်းများနှင့် မီးများသည် မရောနှောပါ။\n\n၅။ အကယ်၍ သင်သည် ကားတစ်စီးအထဲတွင်ရှိနေလျှင် ကားကိုရပ်တန့်ပြီး မြေငလျင်လှုပ်ပြီးသည်အထိ ကားအတွင်း၌ နေပါ။\n\n၆။ ဓာတ်လှေကားများကိုမသုံးပါနှင့်။ ပိတ်မိနေနိုင်ပါသည်။\n\n၇။  အရေးပေါ်နံပါတ်များ၊ လူနာတင်ယာဉ်၊ မီးသတ်တပ်ဖွဲ့များစသည်တို့ကို ဖုန်းခေါ်ဆိုပါ။\n\n ၈။ သင့်နှင့် အနီးအနားရှိမိတ်ဆွေများအား အသိပေးအကြောင်းကြားပါ။\n\n၉။ ယခု Application ရဲ့ သတိပေးချက်များကို ဂရုပြုပါ။"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp" />
+
+
+
+
+
+</LinearLayout>

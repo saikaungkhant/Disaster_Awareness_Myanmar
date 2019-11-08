@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">Disaster Awareness</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_map">ဘေးအန္တရာယ်ပြ မြေပုံ</string>
+    <string name="menu_news">ဘေးအန္တရာယ် သတင်းများ</string>
+    <string name="menu_knowledge">ဘေးအန္တရာယ် အသိပညာပေး</string>
+    <string name="menu_contact">အရေးပေါ် ဖုန်းနံပတ်များ</string>
+    <string name="menu_volunteer">Volunteer</string>
+    <string name="menu_charity">လူမှုရေးအသင်းများ</string>
+    <string name="menu_earth">မြေငလျှင် တိုင်းတာရေး  Sensor</string>
+    <string name="menu_admin">Admin</string>
+    <string name="menu_send">အကြံပြုစာပေးပို့ရန်</string>
+    <string name="d_info"><b><big>မိုးခေါင်ရေရှားဘေး</big></b></string>
+    <string name="landslide_info">မြေပြိုခြင်းသည် အဓိကအားဖြင့် သဘာဝဘေး အန္တရာယ်တစ်ရပ်ဖြစ်သော်လည်း ကမ္ဘာအနှံ့ဖြစ်ပွား ခဲ့သည့် မြေပြိုမှုအားလုံးကမူ ရာနှုန်းပြည့်သဘာဝဘေး အန္တရာယ်များ မဟုတ်ခဲ့ကြပေ။ လူ့ပယောဂကြောင့်ဖြစ်ရ သော မြေပြိုမှုများက ရာခိုင်နှုန်း တစ်ရပ် အဖြစ်ပါဝင်ခဲ့ သည်။ တည်ဆောက်ရေး စီမံကိန်းလုပ်ငန်း ခွင်၌ မြေတူးရာမှ ထွက်ပေါ်လာသော မြေစိုင်မြေခဲများကို စုပုံစွန့် ပစ်ရာမှ မြေပြိုကျခြင်းကြောင့် အလုပ်သမား များ နှင့်ယာဉ်၊ ယန္တရားအချို့မြေကျွံပြီး ထိခိုက်ဒဏ်ရာရ သေဆုံးရခြင်း မျိုးနှင့် အောက်ခံမြေသားလွှာ၏ ခံနိုင် ရည်အားကို စနစ်တကျစမ်းသပ်ခြင်းမပြုဘဲ အုတ်မြစ်ချတည်ဆောက်ခဲ့ခြင်းကြောင့် မြေကျွံပြီးအဆောက် အအုံပြိုကျခြင်းမျိုးတို့သည် လူ့ပယောဂကြောင့် မြေပြိုရခြင်း၏ နမူနာတချို့ဖြစ်ကြသည်။\n
+        မြေပြိုမှုဖြစ်ရပ် များ၏ အကြောင်းရင်းအမျိုးမျိုးကို သဘာဝ ဖြစ်စဉ် နှင့် လူ့ပယောဂဖြစ်စဉ်ဟူ၍ ခွဲခြားလေ့လာနိုင်သည်။
+        \n<li>ငလျင်ကြောင့် မြေပြိုခြင်း</li>
+         \n<li>မီးတောင်ပေါက်ကွဲမှုကြောင့် မြေပြိုခြင်း</li>
+         \n<li>မြစ်ကမ်းဘေး၊ ချောင်းကမ်းပါးများ မြေပြိုခြင်း</li>
+         \n<li>တောင်စောင်း၊ ချောက်ကမ်းပါးများ မြေပြိုခြင်း</li>
+         \n<li>သတ္တုတွင်းများ မြေပြိုခြင်း</li>
+    </string>
+
+    <string-array name="chooseArray">
+        <item>NO</item>
+        <item>YES</item>
+    </string-array>
+    <string name="earthquack">ငလျင်လှုပ်ခြင်းဆိုသည်မျာ မြေကြီးတုန်ခါမှုြ်ဖစ်ခြင်းကို ခေါ်ဆိုခြင်း ဖြစ်ပါသည်။ဘူမိဘေဒဘာသာရပ်တွင်မြေထုချပ်(Plate) ဟုခေါ်သော ကျောက်သားထုချပ် တစ်ခုသည် တစ်ခုနှင့်တစ်ခု တွန်းတိုက်မိရာမှ တစ်ခုက အခြားတစ်ခုအောက်သို့ ငုံ့လျှိုးဝင်ရောက်ပြီး အပေါ်တစ်ခုသည် တွန်းတိုင်သည့်နေရာတွင်အားများ တဖြည်းဖြည်း စုစည်းမိလာကာ တစ်ချိန်တွင် စုသည်းမိသောအားများ ရုတ်တရက်ရုန်းကန်၍ အဘက်ဘက်သို့ ပြန့်ထွက်သွားပါသညါ။အဆိုအ့ အားများ(စွမ်းအင်အား) ဖြတ်သွားရာ လမ်းကြောင်းတစ်လျှောက်ရှိကြားခံ အရာများအားလုံး တုန်ခါ၍ သွာစးသည်ကို ငလျင်လှုပ်သည်ဟု ခေါ်ဆိုကြသည်။\n(ခ) နှစ်ပောင်း (၃၀) ပျှမ်းမျှ မိုးရေချိန်ပမာဏထက် (၅၀)ရာခိုင်နှုန်းနှင့်အထက် လျော့နည်းမှု (၁၅)ရက်ထက်ပိုပါက အဓိကမိုးခေါင်ခြင်း(Major Drought) ဟုသတ်မှတ်ပါသည်။</string>
+
+
+    <string name="cyclone" >\t \t \t \t ဆိုင်ကလုံးမုန်တိုင်းသည် မိုးလေဝသနှင့်ဇလဗေဒ ပညာရပ်အရ ပိတ်ထားသော ဧရိယာတစ်ခုအတွင်းတွင် စက်ဝိုင်းသဏ္ဍန် အရည်လှုပ်ရှားမှုသည် ကမ္ဘာမြေကြီးလည်ပတ်သည့် အရပ်ဖက်သို့ ဦးတည်လည်ပတ်ခြင်းဖြစ်သည်။ ဤအရာသည် အတွင်းဘက်သို့ ဝဲကတော့ပုံ လှည့်လည်နေသည့် လေများဖြင့် အသွင်အပြင် ခွဲခြားဖော်ပြလေ့ရှိပြီး၊ မြောက်ကမ္ဘာလုံးခြမ်းတွင် နာရီလက်တံ ပြောင်းပြန်လည်သကဲ့သို့ လည်၍ တောင်ကမ္ဘာလုံးခြမ်းတွင် နာရီလက်တံအတိုင်း လည်သည်။ များသောအားဖြင့် ကြီးမားသော ဆိုင်ကလုံး လှည့်ပတ်မှုများသည် လေဖိအားနည်း ရပ်ဝန်းဒေသများကို ဗဟိုပြုသည်။ အကြီးမားဆုံးသော လေဖိအားနည်း ရပ်ဝန်း စနစ်များသည် အကြီးစားစကေးပေါ်တွင် တည်ရှိသော လေအေးထု ပါဝင်သော ဆိုင်ကလုံးများနှင့် အပူလွန်ဒေသ မုန်တိုင်းများ ဖြစ်သည်။
+    </string>
+    <string name="cychistory">Cyclone History</string>
+    <string name="cdoanddont_list"><b><big>မုန်တိုင်းအတွက်ကြိုတင်ပြင်ဆငိရန်များ</big></b>
+        \n <li>မိမိအိမ်ပတ်ဝန်းကျင်တွင် ဘေးအန္တရာယ်ဖြစ်နိုင်ခြေများနှင့် အိမ်၏ကြံ့ခိုင်မှု့ကို စစ်ဆေးပါ။</li>
+        \n <li>အရးပေါ်သုံးမစ္စည်းများနှင့် အရးပေါ်အသက်ကယ်ပစ္စည်းများကို ကြိုတင်ပြင်ဆင်ထားပါ။</li>
+        \n <li>သက်ဆိုင်ရာအစိုးရဌာနမှ ထုတ်ပြန်ကြေညာသော မိုးလေသည သတင်းများကို စဉ်ဆက်မပြတ်နားထောင်ပြီး အကြံပြုချက်များကိုလိုက်နာပါ။အခြားသူများကိုမျှဝေပါ။ကောလဟာလသတင်းများကို မယုံပါနှင့်။</li>
+        \n <li>အရေးပေါ်သုံးပစ္စည်းများ၊ စားရေးရိက္ခာနှင့်အရးကြီးစာရွက်စာတမ်းများကို မိမိနှင့်အတူထားရှိပါ။</li>
+        \n <li>သက်ဆိုင်ရာအစိုးရ၏ညွှန်ကြားချက်ရရှိပါက ရွေးချယ်ထားသော ဘေးလွတ်ရာနေရာသို့ပြောင်းရွှေ့ခိုလှုံပါ။
+</li>\n\n
+        <b>မုန်တိုင်းဖြစ်ပေါ်နေချိန်နှင့်ပြီးသည့်အချိန်တွင် ရှောင်ရှားသငိ့သည့် အချက်များ</b>
+        \n<li> လေမုန်တိုင်းအနည်းခယ် အားလျော့သွားချိန်တွငိအိန်အပြင်ထွက်ခြငိး၊ ကမ်းခြေ၊ မြစ်ကမ်းနား၊
+ကမ်းနဖူးသို့ သွားရောက်ခြင်းမပြုပါနှင့်။</li>
+        \n<li> အန္တရယ်ရှိသော ဓာတိကြိုးများ၊ ဓာတ်တိုင်၊ သစ်ပင် သစ်ကိုင်းများ သတိပြုရှောင်ရှားပါ။ သက်ဆိုင်ရာသို့ အကြောင်းကြားပြီး ကူညီရှင်းလင်းပါ။</li>
+        \n<li> သန့်ရှင်းသောသောက်သုံးရေ(သို့) ကျိုချက်ထားသောရေ (သို့) ရေသန့်ဆေးခတ်ထားသောရေကိုသာ အမြဲသောက်သုံးပါ။
+</li>
+    </string>
+    //cyclone******
+
+    //Typhoon*******
+    <string name="typhoon">တိုင်ဖွန်းမုန်တိုင်းသည် မြောက်ပိုင်းခြမ်းမှစတင်ဖြစ်သောအပူပိုင်းဆိုင်ကလုန်းမုန်တိုင်းဖြစ်ပါသည်။ </string>
+    <string name="typhistory">Typhone History</string>
+    <string name="tdoanddont_list"><b><big>မုန်တိုင်းအတွက်ကြိုတင်ပြင်ဆငိရန်များ</big></b>
+        \n <li>မိမိအိမ်ပတ်ဝန်းကျင်တွင် ဘေးအန္တရာယ်ဖြစ်နိုင်ခြေများနှင့် အိမ်၏ကြံ့ခိုင်မှု့ကို စစ်ဆေးပါ။</li>
+        \n <li>အရးပေါ်သုံးမစ္စည်းများနှင့် အရးပေါ်အသက်ကယ်ပစ္စည်းများကို ကြိုတင်ပြင်ဆင်ထားပါ။</li>
+        \n <li>သက်ဆိုင်ရာအစိုးရဌာနမှ ထုတ်ပြန်ကြေညာသော မိုးလေသည သတင်းများကို စဉ်ဆက်မပြတ်နားထောင်ပြီး အကြံပြုချက်များကိုလိုက်နာပါ။အခြားသူများကိုမျှဝေပါ။ကောလဟာလသတင်းများကို မယုံပါနှင့်။</li>
+        \n <li>အရေးပေါ်သုံးပစ္စည်းများ၊ စားရေးရိက္ခာနှင့်အရးကြီးစာရွက်စာတမ်းများကို မိမိနှင့်အတူထားရှိပါ။</li>
+        \n <li>သက်ဆိုင်ရာအစိုးရ၏ညွှန်ကြားချက်ရရှိပါက ရွေးချယ်ထားသော ဘေးလွတ်ရာနေရာသို့ပြောင်းရွှေ့ခိုလှုံပါ။</li>\n\n
+
+       <b> <big>မုန်တိုင်းဖြစ်ပေါ်နေချိန်နှင့်ပြီးသည့်အချိန်တွင် ရှောင်ရှားသငိ့သည့် အချက်များ</big></b>
+        \n<li> လေမုန်တိုင်းအနည်းခယ် အားလျော့သွားချိန်တွငိအိန်အပြင်ထွက်ခြငိး၊ ကမ်းခြေ၊ မြစ်ကမ်းနား၊
+ကမ်းနဖူးသို့ သွားရောက်ခြင်းမပြုပါနှင့်။</li>
+        \n<li> အန္တရယ်ရှိသော ဓာတိကြိုးများ၊ ဓာတ်တိုင်၊ သစ်ပင် သစ်ကိုင်းများ သတိပြုရှောင်ရှားပါ။ သက်ဆိုင်ရာသို့ အကြောင်းကြားပြီး ကူညီရှင်းလင်းပါ။</li>
+        \n<li> သန့်ရှင်းသောသောက်သုံးရေ(သို့) ကျိုချက်ထားသောရေ (သို့) ရေသန့်ဆေးခတ်ထားသောရေကိုသာ အမြဲသောက်သုံးပါ။</li>
+    </string>
+    //Typhoon****
+
+    //Sunami****
+    <string name="sunami">ဆူနာမီဆိုသည်မှာ ပင်လယ်သမုဒ္ဒရာရေအောက်ကြမ်းပြင်ရွေ့လျားခြင်း၊မြေပြိုခြင်း၊ရေအောက်မီးတောင်ပေါက်ကွဲခြင်း
+များကြောင့်ဖြစ်ပေါ်လာသည့် အလွန်ကြီးမားသောလှိုင်းလုံးကြီးများဖြစ်သည်။</string>
+
+    <string name="sunami_history">history</string>
+    <string name="sunami_list"><b><big>ဆူနာမီအတွက်ကြိုတင်ပြင်ဆင်ရန်များ </big></b>
+    \n <li>ပင်လယ်ကမ်းရိုးတန်းဒေသများတွင် ဒီရေတောများ၊လှိုငိးခွဲတာတမံများတောင်ရွက်ထားပါ၊
+အသက်ကယ်ကုန်းမြင့်များသတ်မှတ်အသိပေးပါ။</li>
+    \n <li>ပင်လယ်ကမ်းရိုးတန်းဒေသမျာ တွင်နေထိုင်သူများအနေဖြင့်ငလျင်လှုပ်ပြီးနောက်ထုပ်ပြန်သော ဆူနာမီသတိပေးချက်များကို သတိပြုနားထောင်ပေးပါ။</li>
+    \n <li>ဆူနာမီအန္တရာယ်မှပြေးခိုနိုင်မည့်နေရာ(ကုန်းတွင်းပိုင်း ကုန်းမြင့်သို့)သွားရမည့်လမ်းကြောင်းအား အတိုဆုံးရေးဆွဲပြီး မိသားစုဆုံရပ်များသတိမှတ်ထားပါ။</li>
+        \n <li>မိမိတို့နေထိုင်ရာဒေသသည် ဆူနာမီအန္တရာယ်ရှိပါက (သို့) အောက်ဖော်ပြပါ ဆူနာမီပြေးလက္ခဏာများကို
+သတိပြုမိသောအခါ သတိပေးချက်များကို မစောင့်ပါနှင့် ဘေးလွတ်ရာသို့အမြန်ဆုံးပြေးပါ။</li>
+        \n <li> (က)ကမ်းခြေအနီးရှိစဉ်တွင် မြေငလျင်လှုပ်သည်ကို သတိပြုမိသောအခါ</li>
+        \n <li>  (ခ) ကမ်းခြေရှိပင်လယ်ရေများနောက်သို့ကျဆင်းသွားသည်ကိုသတိပြုမိသောအခါ</li>\n\n
+
+        <b><big>ဆူနာမီဖြစ်ပေါ်နေချိန်တွင် ပြုလုပ်ရမည့် အချက်များ</big></b>
+        \n <li>ကမ်းခြေအနီးရှိစဉ်တွင် မြေငလျင်လှုပ်သည်ကို သတိပြုမိသောအခါ</li>
+        \n <li>(ဂ)ပင်လယ်ဘက်မှလှိုင်းလုံးကြီးများရိုက်ခတိလာသောအော်သံကိုသတိပြုမိသောအခါ</li>
+         \n <li>(ဃ)ကုန်းတွင်းပိုင်းအမြင့်ပိုင်းကိုအမြန်ဆိုးပြေးကြပါ။</li>\n\n
+        <b><big>ဆူနာမီဖြစ်ပေါ်နေချိန်တွင် ပြုလုပ်ရမည့် အချက်များ</big></b>
+        \n <li>ပင်လယ်ကမ်းခြေသို့ပြေး၍ မကြည့်ပါနှင့်။</li>
+        \n <li>ရွှေ့ပြောင်းချိန်မလုံလောက်ပါက နီးစပ်ရာအထပ်မြင့်အဆောက်အအုံများ၊ အပင်မြင့်များ၊
+ကုန်းမြင့်များရှိရာသို့ အမြန်ဆုံးပြေးပါ။</li>
+         \n <li>ပင်လယ်ကမ်းစပ်တွင်ကပ်ထားသောလှေ၊ သင်္ဘောများပေါ်တွင်ရှိနေသေးပါက
+ဘေးလွတ်ရာသို့ အမြန်ဆုံးပြေးပါ။</li>
+        \n <li> ဘေးကင်းလုံခြုံပြီဟုသတင်းထုတ်ပြန်ချက်မရမချင်း မိမိခိုလှုံသည့်နေရာတွင် ဆက်လက်နေထိုင်ပါ။</li>\n \n
+        <b><big>ဆူနာမီဖြစ်ပြီးနောက် ပြုလုပ်ရန်အချက်များ</big></b>
+        \n <li>သောက်သုံးရေသန့် (သို့) ကျိုချက်ထားသောရေ (သို့) ရေသန့်ဆေးခတ်ထားသောရေကိုသာသောက်သုံးပါ။</li>
+        \n <li>ထိခိုက်ဒဏ်ရာရသူများကို ရှေးဦးသူနာပြုစုပါ ၊ ဒဏ်ရာပြင်းထန်ပါက ကျန်းမာရေးဝန်ထမ်းများ၏ အကူအညီရယူပါ။</li>
+        \n <li>ခိုလှုံရာနေအိမ်သို့ပြန်လည်ရွှေ့ပြောင့်းပါက နေအိမိ၏ကြံခိုင်မှု့ကိုစစ်ပါ။</li>
+        \n <li>အပျက်အစီး၊ အကျိုးအပြတ်များ. ရေဝပ်သောနေရာများကိုမဖြစ်မနေသွားရောက်ရန်လိုပါက ဦးထုပ်၊ လည်ရှည်ဖိနပ်သည့် အကာအပွယ်မျး ဝတ်ဆင်ပြီး သွားပါ။
+</li>
+
+</string>
+    //Sunami****
+
+    //Flood*****
+    <string name="flood">မြန်မာနိုင်ငံတွင်ရေကြီးမှုသည်အဓိကအားဖြင့်ရေကြီးမှုများသဖြင့်အမျိုးအစားမြန်မာနိုင်ငံတွင်ဖြစ်ပေါ်ယေဘုယျအားဖြင့်နှစ်ခုခွဲခြားထားသည်။ (အောက်တိုဘာလမှဇွန်လ) မုတ်သုန်လကြာကာလအတွင်းဖြစ်ပေါ်သောကျယ်ပြန့်ပြန့်ပွားရေလွှမ်းမိုးခြင်းနှင့် ရုတ်တရက် ရေလွှမ်းမိုးခြင်းတို့ဖြစ်သည်။</string>
+    <string name="flohistory">Flood History</string>
+    <string name="flood_list"><b><big>ရေမကြီးမှီကြိုတင်ပြုလုပ်ရန်များ</big></b>
+    \n <li>ရေစိုပျက်စီးနိုင်သော ပစ္စည်းများကို  မြင့်သောနေရာတွင် ထားရှိပါ။</li>
+    \n <li>အရေးပေါ်သုံးအစ္စည်းများနှင့် အရေးပေါ်အသက်ကယ်အစ္စည်းများကိုကြိုတင်ပြင်ဆငိထားပါ။</li>
+    \n <li>အရေးကြီးစာရွက်စာတမ်းများကို မိမိနှင့်အတူထားရှိပါ။</li>
+     \n <li>သက်ဆိုင်ရာအစိုးရဌာနမျ ထုတ်ပြန်ကြေညာသော မိုးလေဝသ သတင်းများကို စဉ်ဆက်မပြတ်နားထောင်ပြီး အကြံပြုချက်များကိုလိုက်နာပါ။
+</li>\n\n
+        <b><big>ရေကြီးချိန်နှင့်ရေကြီးပြီးပြုလုပ်ရန်များ</big></b>
+    \n <li>အိမ်သုံးလျှပ်စစ်ပစ္စည်းများ၊ မိန်းခလုပ်များကို ပိတ်ထားပါ။</li>
+    \n <li>ရေစိုနေသော လျှပ်စစ်ပစ္စည်းများကို အသုံးမပြုပါနှင့်။</li>
+     \n <li>အဆိပ်ရှိသောတိရစ္ဆာန်များ အိမ်၊ခြံ အတွင်း ရှိ၊မရှိ စစ်ဆေးပါ။
+        </li>
+</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="action_about">About</string>
+
+    <string name="today">ယနေ့</string>
+    <string name="tomorrow">မနက်ဖြန်</string>
+    <string name="later">နောက်ရက်များ</string>
+
+    <string name="wind">လေတိုက်နှုန်း</string>
+    <string name="wind_speed">လေတိုက်နှုန်း</string>
+    <string name="pressure">လေဖိအား</string>
+    <string name="humidity">စိုထိုင်းစ</string>
+    <string name="sunrise">နေထွက်ချိန်</string>
+    <string name="sunset">နေဝင်ချိန်</string>
+    <string name="uvindex">ခရမ်းလွန်ရောင်ခြည် အန္တရာယ်</string>
+
+    <string name="last_update">Last update:\n%s</string>
+    <string name="last_update_widget">\nLast update: %s</string>
+
+    <string name="search_title">ရှာဖွေချင်သောမြို့အမည်</string>
+
+    <string name="downloading_data">Downloading your data ...</string>
+    <string name="getting_location">Getting your location ...</string>
+
+    <string name="loading_data">Loading...</string>
+
+    <string name="error_dateFormat">DATE FORMAT ERROR</string>
+
+    <string name="setting_dateFormat">Date Format</string>
+    <string name="setting_dateFormatCustom">Custom Date Format</string>
+    <string name="setting_dateFormatCustom_summary">Provide the custom SimpleDateFormat string to be used</string>
+    <string name="setting_lengthUnits">Length units</string>
+    <string name="setting_speedUnits">Speed units</string>
+    <string name="setting_tempUnits">Temperature units</string>
+    <string name="setting_showTempAsInteger">Show temperature only as an integer</string>
+    <string name="setting_pressureUnits">Pressure units</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_transparent_widget">Make widget transparent</string>
+    <string name="setting_auto_detect_location">လက်ရှိနေရာ</string>
+    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>
+    <string name="setting_refreshInterval">Background refresh interval</string>
+    <string name="setting_unit_mps">Meters per second (m/s)</string>
+    <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+    <string name="setting_unit_mph">Miles per hour (mph)</string>
+    <string name="setting_unit_bft">Beaufort wind scale (bft)</string>
+    <string name="setting_unit_kn">Knots (kn)</string>
+    <string name="setting_wind_direction_format">Wind direction format</string>
+    <string name="settings_none">None</string>
+    <string name="setting_apiKey">API key</string>
+    <string name="setting_apiKey_summary">Custom API key for OpenWeatherMap queries</string>
+
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeters (mm)</string>
+    <string name="setting_unit_in">Inches (in)</string>
+
+    <string name="setting_unit_hpa">hPa</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+    <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">m/s</string>
+    <string name="speed_unit_kph">kph</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="speed_unit_kn">kn</string>
+
+    <string name="wind_direction_format_none">No indication</string>
+    <string name="wind_direction_format_arrows">Arrows</string>
+    <string name="wind_direction_format_abbreviations">Abbreviations</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <string name="setting_theme_fresh">Fresh</string>
+    <string name="setting_theme_classic">Classic</string>
+    <string name="setting_theme_dark">Fresh Dark</string>
+    <string name="setting_theme_classic_dark">Classic Dark</string>
+    <string name="setting_theme_black">Fresh Black</string>
+    <string name="setting_theme_classic_black">Classic Black</string>
+
+    <string name="dialog_ok">ဟုတ်ပြီ</string>
+    <string name="dialog_cancel">မလုပ်တော့ပါ</string>
+
+    <string name="msg_err_parsing_json">Error parsing JSON.</string>
+    <string name="msg_connection_problem">There is a problem with your internet connection.</string>
+    <string name="msg_connection_not_available">Connection not available.</string>
+    <string name="msg_city_not_found">Specified city is not found.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">Too many requests. Please try again.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nWind: %3$s %4$s\nPressure: %5$s %6$s\nHumidity: %7$s %%\n</string>
+    <string name="settings_title_units">Units</string>
+    <string name="settings_title_display">Display</string>
+    <string name="settings_title_data">Data</string>
+    <string name="setting_displayDecimalZeroes">Display decimal zeroes</string>
+    <string name="settings_title_location">Location</string>
+    <string name="setting_update_location_automatically">Update location in background</string>
+
+    <string name="location_settings">Location Settings</string>
+    <string name="location_settings_message">Location is not enabled. Do you wish to go to the settings menu?</string>
+    <string name="location_settings_button">Settings</string>
+    <string name="action_weather_map">ရာသီဥတုပြမြေပုံ</string>
+    <string name="rain">မိုးရေချိန်</string>
+    <string name="temperature">အပူချိန်</string>
+    <string name="action_graphs">ရာသီဥတု အခြေအနေပြဇယား</string>
+    <string name="about_dialog">1.10.4\n\nA lightweight, Free Software weather app, released under the GPL3 licence.\n\nDeveloped by <a href='mailto:t.martykan@gmail.com'>Tomas Martykan</a> and others\n\nCode is available at <a href='https://github.com/martykan/forecastie'>Forecastie</a>\n\nData provided by <a href='https://openweathermap.org/'>OpenWeatherMap</a>, under the <a href='http://creativecommons.org/licenses/by-sa/2.0/'>Creative Commons license</a>\n\nIcons are <a href='https://erikflowers.github.io/weather-icons/'>Weather Icons</a>, by <a href='http://www.twitter.com/artill'>Lukas Bischoff</a> and <a href='http://www.twitter.com/Erik_UX'>Erik Flowers</a>, under the <a href='http://scripts.sil.org/OFL'>SIL OFL 1.1</a> licence.</string>
+
+
+
+
+</resources>

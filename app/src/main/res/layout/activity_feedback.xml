@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:paddingTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:ems="20"
+        android:text="disastermonitor2019@gmail.com"
+        android:layout_alignParentTop="true"
+        android:id="@+id/sendTo"
+        android:enabled="false"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_email_black_24dp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:hint="Subject of Mail"
+        android:ems="20"
+        android:layout_marginTop="46dp"
+        android:id="@+id/subjcet"
+        android:drawableStart="@drawable/ic_subject_black_24dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textMultiLine"
+        android:ems="20"
+        android:hint="Write your message"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:id="@+id/EmailText"
+        android:drawableStart="@drawable/ic_feedback_black_24dp"/>
+    <Button
+        android:text="send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sendEmail"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg_round"/>
+
+    </LinearLayout>
+
+</LinearLayout>

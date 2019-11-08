@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:text="dsauh"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/cycgif"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/earthquakegif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:justificationMode="inter_word"
+            android:text="ငလျင်လှုပ်ခြင်း (လှုပ်ခြင်း၊ တုန်ခါခြင်း၊ ခါယမ်းခြင်း သို့မဟုတ် မြေငလျင်လှုပ်ရှားမှု) သည် မြေငလျင်လှိုင်းများကို ဖန်တီးရာတွင် ကမ္ဘာမြေကြီး၏ မျက်နှာပြင်လွှာအတွင်း၌ စွမ်းအင်ကို ရုတ်တရက်ထုတ်လွှတ်ခြင်း၏ ရလဒ်ဖြစ်သည်။\n\n ငလျင်သည် မြေတွင်းအနက်တစ်နေရာ၌ဖြစ်သည်။ ကျောက်ဆိုင်ထုအတွင်း မြေတွင်းဖိအားများကြောင့် အက်ရာစတင်ဖြစ်ပေါ်ပြီး ထိုအက်ကြောင်းမျက်နှာပြင်တစ်လျောက် ရုတ်တရက်ကျိုးပြတ် ပွတ်တိုက်ရွေ့ လျောခြင်းကြောင့် ဖြစ်သည်။\n\n ထိုသို့ကျိုးပြတ်ခြင်းမဖြစ်မီ ဖိအားကြောင့် ကျောက်ဆိုင်ထုအတွင်း ကျုံ့ခြင်း၊ ပွခြင်းဖြစ်သည်။ ရွေ့လျားခြင်းဖြစ်သည်။\n\n နဂိုရှိရင်းစွဲ ကျောက်လွှာထုနှင့်နှိုင်းဆလျှင် ထိုရွေ့မှုမှာ မမြင်သာ သလောက်ဖြစ်သည်။\n\n နှိုင်းရအရွေ့တစ်မျိုးဖြစ်သည်။ ဖိစီးအား(Stress) ကြောင့် ဖြစ်သော နှိုင်းရအရွေ့ ဖြစ်သဖြင့် ဒါဏ်(Strain) ဟုခေါ်ရသည်။\n\n ဖိအားများလျှင်ဒါဏ်များသည်။ ဖိအားနည်းလျှင် ဒါဏ်နည်းသည်။\n\n ဖိအားပမာဏ အတိုင်းအတာတစ်ခုအထိ ကျိုးပြတ်ခြင်း၊ အက်ကွဲခြင်းမရှိ၊ ကြုံဆန့်နိုင်သည်။\n\n ဖိ(ဆန့်)အား နှင့် ဒဏ် တိုက်ရိုက်အချိုးကျသည်။ ထိုအခြေ အနေတွင် ငလျင်မဖြစ်ပါ။ \n"/>
+    </ScrollView>
+</LinearLayout>

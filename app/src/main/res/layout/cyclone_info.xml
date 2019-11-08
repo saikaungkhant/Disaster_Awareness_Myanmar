@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/cycgif"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/cyclonegif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:justificationMode="inter_word"
+        android:text="ဆိုင်ကလုံးမုန်တိုင်းသည် မိုးလေဝသနှင့်ဇလဗေဒ ပညာရပ်အရ ပိတ်ထားသော ဧရိယာတစ်ခုအတွင်းတွင် စက်ဝိုင်းသဏ္ဍန် အရည်လှုပ်ရှားမှုသည် ကမ္ဘာမြေကြီးလည်ပတ်သည့် အရပ်ဖက်သို့ ဦးတည်လည်ပတ်ခြင်းဖြစ်သည်။\n\n ဤအရာသည် အတွင်းဘက်သို့ ဝဲကတော့ပုံ လှည့်လည်နေသည့် လေများဖြင့် အသွင်အပြင် ခွဲခြားဖော်ပြလေ့ရှိပြီး၊ မြောက်ကမ္ဘာလုံးခြမ်းတွင် နာရီလက်တံ ပြောင်းပြန်လည်သကဲ့သို့ လည်၍ တောင်ကမ္ဘာလုံးခြမ်းတွင် နာရီလက်တံအတိုင်း လည်သည်။\n\n များသောအားဖြင့် ကြီးမားသော ဆိုင်ကလုံး လှည့်ပတ်မှုများသည် လေဖိအားနည်း ရပ်ဝန်းဒေသများကို ဗဟိုပြုသည်။\n\n အကြီးမားဆုံးသော လေဖိအားနည်း ရပ်ဝန်း စနစ်များသည် အကြီးစားစကေးပေါ်တွင် တည်ရှိသော လေအေးထု ပါဝင်သော ဆိုင်ကလုံးများနှင့် အပူလွန်ဒေသ မုန်တိုင်းများ ဖြစ်သည်။\n\nလေနွေးထု ပါဝင်သော ဆိုင်ကလုံးများဖြစ်သည့် အပူပိုင်းဒေသ မုန်တိုင်းများ၊ အလယ်အလတ် ပြင်းအားရှိ မုန်တိုင်းများနှင့် လေဖိအားနည်းရပ်ဝန်းတို့သည် ပို၍သေးငယ်သော အလယ်အလတ်စကေး အတွင်းတွင် တည်ရှိသည်။\n\n အပူလျော့ပိုင်း မုန်တိုင်းများသည် အလယ်အလတ်အရွယ် အစားဖြစ်သည်။\n\n အပေါ်ပိုင်းအလွှာ မုန်တိုင်းများသည် မျက်နှာပြင်အနိမ့်တစ်ခုမရှိဘဲ တည်ရှိနေနိုင်ပြီး မြောက်ကမ္ဘာလုံးခြမ်း၏ နွေလများအတွင်းတွင် အပူပိုင်းဒေသ ကမ္ဘာ့လေထု အနိမ့်ဆုံးအလွှာ အပေါ်ပိုင်း လေဖိအားများရပ်ဝန်း နှစ်ခုကြားရှိ လေဖိအားနည်းရပ်ဝန်း၏ အောက်ခြေမှ တိုက်ခတ်နိုင်သည်။\n"/>
+    </ScrollView>
+</LinearLayout>
